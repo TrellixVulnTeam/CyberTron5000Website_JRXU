@@ -25,6 +25,7 @@ bottom:100px;
 right:10px;
 padding-left:15px;
 z-index:2;
+
 }
 
 .trans-box {
@@ -50,6 +51,7 @@ z-index:2;
   opacity:0.85;
   z-index:1;
   float:bottom;
+
 }
 
 .cyber-title{
@@ -73,4 +75,59 @@ padding-bottom:48px;
 margin:24px;
 margin-bottom:-95px;
 padding-top:-30px;
+font-weight:100;
+-webkit-font-smoothing: antialiased;
+font-family:Helvetica, Arial, sans-serif;
+}
+
+.buttons{
+padding: 10px 20px;
+overflow:hidden;
+position:relative;
+transition:0.7s;
+position:relative;
+}
+
+.buttons i{
+line-height:90px;
+font-size:26px;
+transition:0.2s linear;
+color:#222324;
+}
+
+
+.github-btn, .discord-btn{
+margin: 10px;
+height:90px;
+width:90px;
+display:inline-block;
+font-size:45px;
+border-radius:30%;
+border: 0px solid white;
+box-shadow: 0 5px 15px #00000070;
+}
+
+.invite-btn{
+display:inline-block;
+font-size:29px;
+border-radius:30%;
+border: 0px solid white;
+box-shadow: 0 5px 15px #00000070;
+height:90px;
+width:90px;
+margin:10px;
+color:#222324;
+font-family:Helvetica, Arial, sans-serif;
+}
+
+.github-btn:hover i, .discord-btn:hover i{
+transform: scale(1.66)
+}
+
+.github-btn:hover, .discord-btn:hover, .invite-btn:hover{
+background:#222324;
+}
+
+.github-btn:hover i, .discord-btn:hover i, .invite-btn:hover{
+color:white;
 }
