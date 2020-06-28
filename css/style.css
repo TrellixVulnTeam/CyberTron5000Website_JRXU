@@ -80,6 +80,10 @@ font-weight:100;
 font-family:Helvetica, Arial, sans-serif;
 }
 
+.buttons:hover{
+cursor:pointer;
+}
+
 .buttons{
 padding: 10px 20px;
 overflow:hidden;
