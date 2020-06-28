@@ -88,7 +88,7 @@ font-family:Helvetica, Arial, sans-serif;
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
   --bg-primary: #141418;
-  --bg-secondary: black;
+  --bg-secondary: #141418;
   --transition-speed: 600ms;
 }
 
