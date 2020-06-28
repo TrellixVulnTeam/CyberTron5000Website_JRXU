@@ -90,7 +90,7 @@ position:relative;
 
 .buttons i{
 line-height:90px;
-font-size:26px;
+font-size:46px;
 transition:0.2s linear;
 color:#222324;
 }
@@ -109,15 +109,16 @@ box-shadow: 0 5px 15px #00000070;
 
 .invite-btn{
 display:inline-block;
-font-size:29px;
-border-radius:30%;
+font-size:25px;
 border: 0px solid white;
 box-shadow: 0 5px 15px #00000070;
-height:90px;
-width:90px;
+height:100px;
+width:200px;
+float:top;
+border-radius:5%;
 margin:10px;
 color:#222324;
-font-family:Helvetica, Arial, sans-serif;
+font-family:Verdana;
 }
 
 .github-btn:hover i, .discord-btn:hover i{
